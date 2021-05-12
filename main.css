@@ -1,0 +1,14 @@
+#botao_login{
+    background-color: red;
+    padding: 7px 17px;
+    border-radius: 3px;
+}
+
+#header{
+    display: block;
+    position: relative;
+}
+
+#selection_header{
+    position: right;
+}
