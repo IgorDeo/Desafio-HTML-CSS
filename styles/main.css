@@ -1,9 +1,5 @@
-#image_background_gradient{
-    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
-}
-
-.section_1 {
-    background-image: url("Desafio HTML/assets/background.jpg");
+#main_div {
+    text-align: center;
 }
 
 .section_1 {

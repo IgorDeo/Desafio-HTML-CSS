@@ -7,6 +7,8 @@
     align-items: center;
     justify-content: space-between;
     display: flex;
+    height: 5rem;
+    padding-top: 20px;
 }
 
 
@@ -31,4 +33,15 @@
     width: 100%;
     background-size: cover;
     
+}
+
+#main_div {
+    text-align: center;
+    padding: 75px 0;
+    font-family: 'Open Sans', serif;
+}
+
+#main_div h1{
+    font-size: 3.125rem;
+    color: white;
 }
