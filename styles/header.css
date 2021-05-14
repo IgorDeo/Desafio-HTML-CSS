@@ -1,3 +1,7 @@
+#header{
+    border-bottom: 8px solid #222;
+}
+
 #button_container{
     display: flex; 
     align-items: center;
@@ -9,12 +13,16 @@
     display: flex;
     height: 5rem;
     padding-top: 20px;
+    margin-right: 56px;
+    margin-left: 56px;
 }
 
 
 #selection_header {
     position: right;
     margin-right: 25px;
+    width: 113.2px;
+    height: 35.6px;
 }
 
 #botao_login{
@@ -25,23 +33,74 @@
     align-self: flex-end;
     text-decoration: none;
     align-self: end;
+    width: 45px;
+    height: 28px;
+    text-align: center;
+}
+
+#logo{
+    height: 40px;
 }
 
 #header{
-    background-image: url(../assets/background.jpg);
-    height: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%), url(../assets/background.jpg);
+    height: 100vh;
     width: 100%;
     background-size: cover;
     
 }
 
+/* background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%); */
+
 #main_div {
     text-align: center;
     padding: 75px 0;
     font-family: 'Open Sans', serif;
+    font-weight: 400;
+    color: white;
 }
+
 
 #main_div h1{
     font-size: 3.125rem;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+#main_div h2{
+    font-size: 1.625rem;
+    max-width: 640px;
+    margin: 1rem auto;
+}
+
+#main_div h3{
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+#input_div{
+    display: inline-block;
+    width: fit-content;
+}
+
+#input_email{
+    width: 450px;
+    height:60px
+}
+
+#input_submit{
+    height: 60px;
+    width: 183px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+#input_submit span{
     color: white;
+    font-size: 1.625rem;
 }

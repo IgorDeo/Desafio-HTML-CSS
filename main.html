@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/secao1.css">
+    <link rel="stylesheet" href="styles/secao2.css">
+    <link rel="stylesheet" href="styles/secao3.css">
+    <link rel="stylesheet" href="styles/secao4.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Open+Sans:300,400,700" rel="stylesheet">
     <!-- <link rel="stylesheet" href="styles/main.css"> -->
     <title>Nosso Netflix</title>
@@ -36,23 +40,83 @@
 
             <form>
                 <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
-                <div></div>
+                
+                <div id="input_div">
+                    <input id = "input_email" type ="text" placeholder="Email"></input>
+                    <button id = "input_submit"type="submit"><span>Vamos Lá</span></button>
+                </div>
             </form>
         </div>
 
     </header>
 
     <main>
-        <section>
+        <section class="secao">
+            <div id="secao_1_container">
+                <div id= "secao_1_text">
+                    <h1>Aproveite na TV.</h1>
+                    <h2>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</h2>
+                </div>
+
+                <div id="secao_1_img_container">
+                    <div id="secao_1_animacao_container">
+                        <img src="/assets/tv.png" alt="Tv">
+                        <div id="secao_1_animacao">
+                            <video id="secao_1_video" src="/assets/video-tv-0819.m4v" autoplay="" loop=""></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao">
+            <div id="secao_2_container">
+                <div id="secao_2_img_container">
+                    <div id="secao_2_animacao_container">
+                        <img src="/assets/mobile-0819.jpg" alt="Tv">
+                        <div id="secao_2_animacao">
+                            <video id="secao_2_video" src="/assets/video-tv-0819.m4v" autoplay="" loop=""></video>
+                        </div>
+                    </div>
+                </div>
+                <div id= "secao_2_text">
+                    <h1>Baixe séries para assistir offline.</h1>
+                    <h2>Salve seus títulos favoritos e sempre tenha algo para assistir.</h2>
+                </div>
+            </div>
+
+        </section class="secao">
+        
+
+        <section class="secao">
+            <div id="secao_3_container">
+                <div id= "secao_3_text">
+                    <h1>Assista quando quiser.</h1>
+                    <h2>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</h2>
+                </div>
+
+                <div id="secao_3_img_container">
+                    <div id="secao_3_animacao_container">
+                        <img src="/assets/device-pile.png" alt="Tv">
+                        <div id="secao_3_animacao">
+                            <video id="secao_3_video" src="/assets/video-devices.m4v" autoplay="" loop=""></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
 
-        <section>
-
-        </section>
-
-        <section>
-
+        <section class="secao">
+            <div id="secao_4_container">
+                <div id="secao_4_img_container">
+                        <img src="/assets/kids.png" alt="Tv">          
+                </div>
+                <div id= "secao_4_text">
+                    <h1>Crie perfis para crianças.</h1>
+                    <h2>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h2>
+                </div>
+            </div>
         </section>
     </main>
 

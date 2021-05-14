@@ -1,0 +1,53 @@
+.secao {
+    border-bottom: 8px solid #222;
+}
+#secao_1_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+}
+
+#secao_1_animacao{
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 19%;
+    left: 11%;
+}
+
+#secao_1_animacao_container{
+    position: relative;
+}
+
+#secao_1_animacao_container img{
+    position: relative;
+    z-index: 2;
+}
+
+
+#secao_1_text h1{
+    font-size: 50px;
+    color: white;
+}
+#secao_1_text h2{
+    font-size: 26px;
+    color: white;
+}
+
+#secao_1_img_container {
+    display: flex;
+    width: 48%;
+    height: 100%;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+}
