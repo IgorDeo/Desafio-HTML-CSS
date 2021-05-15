@@ -1,7 +1,7 @@
 .secao {
     border-bottom: 8px solid #222;
 }
-#secao_3_container{
+#secao-3-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +15,7 @@
     justify-content: space-between;
 }
 
-#secao_3_animacao{
+#secao-3-animacao{
     width: 100%;
     height: 100%;
     max-width: 73%;
@@ -25,26 +25,34 @@
     left: 11%;
 }
 
-#secao_3_animacao_container{
+#secao-3-animacao-container{
     position: relative;
 }
 
-#secao_3_animacao_container img{
+#secao-3-animacao-container img{
     position: relative;
     z-index: 2;
 }
 
-
-#secao_3_text h1{
-    font-size: 50px;
-    color: white;
-}
-#secao_3_text h2{
-    font-size: 26px;
-    color: white;
+#secao-3-text {
+    padding: 0 3rem 0 0;
 }
 
-#secao_3_img_container {
+#secao-3-text h1{
+    color: white;
+    margin: 0 0 .4em;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+
+#secao-3-text h2{
+    color: white;
+    font-size: 1.625rem;
+    margin: .75em 0 .25em;
+}
+
+#secao-3-img-container {
     display: flex;
     width: 48%;
     height: 100%;

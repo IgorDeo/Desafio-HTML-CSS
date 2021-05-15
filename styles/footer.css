@@ -22,21 +22,21 @@ body {
     width: 90%;
 }
 
-#footer_title {
+#footer-title {
     font-size: 1em;
     margin-bottom: 30px;
 }
 
-.list_links{
+.list-links{
     display: inline-block;
 }
 
-.list_links .footer_link {
+.list-links .footer-link {
     /* margin-left: 0; */
     text-decoration: none;
 }
 
-.footer_link {
+.footer-link {
     font-size: 13px;
     width: 25%;
     /* display: inline-block; */
@@ -50,12 +50,12 @@ body {
 
 }
 
-.footer_link a {
+.footer-link a {
     text-decoration: none;
     color: #757575;
 }
 
-#last_item_footer{
+#last-item-footer{
     margin-top: 24px;
     margin-bottom: 13px;
     font-size: 13px;
