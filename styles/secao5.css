@@ -1,0 +1,54 @@
+#secao-wrapper{
+    margin-left: 25%;
+}
+
+
+.wrapper{
+    max-width: 1000px;
+}
+
+h1{
+    text-align: center;
+    margin: 60px 0 40px -24%;
+    font-size: 50px;
+
+
+}
+
+.lista-item{
+    background: #303030;
+    margin: 0 0 8px 0;
+    max-width: 782px;
+
+}
+
+.faq-titulo{
+    cursor: pointer;
+    font-size: 26px;
+    padding: .8em 2.2em .8em 1.2em;
+}
+
+.faq-titulo:after{
+    content: '+';
+    float: right;
+    transition: transform .3s ease;
+}
+
+.faq-conteudo{
+    display: none;
+}
+
+.trigger-input{
+    display: none;
+}
+
+.trigger-input:checked + .trigger-wrapper .faq-conteudo{
+    display: inline-block;
+    padding: 1.2em;
+    font-size: 26px;
+}
+
+.trigger-input:checked + .trigger-wrapper .faq-titulo{
+    border-bottom: 5px solid black;
+
+}
