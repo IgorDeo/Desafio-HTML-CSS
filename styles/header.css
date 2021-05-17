@@ -1,6 +1,6 @@
 #header {
     border-bottom: 8px solid #222;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .8) 100%), url(../assets/background.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1.0) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1.0) 100%), url(../assets/background.jpg);
     width: 100%;
     background-size: cover;
     height: 710px;
@@ -90,8 +90,9 @@
 }
 
 #main-div h1 {
-    font-size: 3.125rem;
+    font-size: 3.75rem;
     max-width: 640px;
+    font-weight: 700;
     margin: 0 auto;
 }
 
