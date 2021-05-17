@@ -1,10 +1,21 @@
-#secao-wrapper{
+/* #secao-wrapper{
     margin-left: 25%;
+} */
+
+#secao-5 {
+    margin-left: 3.5%;
 }
 
-
 .wrapper{
-    max-width: 1000px;
+    /* max-width: 1000px; */
+    max-width: 1100px;
+    margin: 0 auto;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+
+    /* display: flex;
+    justify-content: center; */
 }
 
 .wrapper h1{
@@ -51,4 +62,18 @@
 .trigger-input:checked + .trigger-wrapper .faq-titulo{
     border-bottom: 5px solid black;
 
+}
+
+#secao-5-lista {
+    margin-left: 7%;
+}
+
+#secao-5-form {
+    max-width: 950px;
+    padding-top: .85rem;
+    margin-top: 4%;
+}
+
+#form-title-bottom{
+    text-align: center;
 }
