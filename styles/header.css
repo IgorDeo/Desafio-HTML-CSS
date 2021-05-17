@@ -1,17 +1,18 @@
-#header{
+#header {
     border-bottom: 8px solid #222;
-    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%), url(../assets/background.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .8) 100%), url(../assets/background.jpg);
     width: 100%;
     background-size: cover;
     height: 710px;
 }
 
-#button-container{
-    display: flex; 
+#button-container {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#main-header{
+
+#main-header {
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -29,10 +30,26 @@
     position: right;
     margin-right: 25px;
     width: 113.2px;
-    height: 35.6px;
+    color: white;
+    border-width: 1px;
+    background-color: black;
+    width: 151px;
+    height: 37px;
+    font-size: 16px;
+    border-color: white;
+    border-radius: 1px;
+    padding-left: 42px;
+    appearance: none;
+    margin-bottom: 32px;
 }
 
-#botao-login{
+#selection-header option {
+    background: #757575;
+    text-align: center;
+    color: white;
+}
+
+#botao-login {
     background-color: red;
     color: white;
     padding: 7px 17px;
@@ -43,9 +60,16 @@
     width: 44px;
     height: 22px;
     text-align: center;
+    margin-left: 30px;
 }
 
-#logo{
+#botao-login span {
+    display: block;
+    left: auto;
+    padding-top: 4px;
+}
+
+#logo {
     height: 40px;
 }
 
@@ -55,7 +79,6 @@
     /* font-family: 'Open Sans', serif; */
     font-weight: 400;
     color: white;
-
     max-width: 950px;
     margin: 0 auto;
     width: 100%;
@@ -66,19 +89,19 @@
     padding-top: .85rem;
 }
 
-#main-div h1{
+#main-div h1 {
     font-size: 3.125rem;
     max-width: 640px;
     margin: 0 auto;
 }
 
-#main-div h2{
+#main-div h2 {
     font-size: 1.625rem;
     max-width: 640px;
     margin: 1rem auto;
 }
 
-.form-title{
+.form-title {
     font-size: 1.2rem;
     max-width: none;
     padding-bottom: 20px;
@@ -87,26 +110,50 @@
     font-weight: 400;
 }
 
-#input-div{
+#input-div {
     /* display: inline-block; */
     display: flex;
     margin: 0 165px;
 }
 
-#input-email{
+#input-email {
     width: 450px;
-    height:60px;
+    height: 60px;
     flex: 1 0 auto;
 }
 
-#input-submit{
+#input-submit {
     width: 183px;
     background-color: red;
     border: none;
     cursor: pointer;
 }
 
-#input-submit span{
+#input-submit span {
     color: white;
     font-size: 1.625rem;
+}
+
+#selection-header-div::before {
+    font-family: nf-icon;
+    content: '\e896';
+    font-size: 16px;
+    position: absolute;
+    pointer-events: none;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#selection-header-div::after {
+    font-family: nf-icon;
+    content: '\e898';
+    font-size: 6px;
+    /* display: flex; */
+    margin-top: -47px;
+    position: absolute;
+    margin-left: -41px;
+    padding-right: 9px;
+    color: white;
+    top: 90px;
 }

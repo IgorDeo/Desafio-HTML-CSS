@@ -92,4 +92,5 @@
     content: '';
     flex-grow: 0;
     flex-shrink: 0;
+    margin-left: 25px;
 }
