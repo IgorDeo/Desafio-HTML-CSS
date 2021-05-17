@@ -90,7 +90,6 @@
 #input-div{
     /* display: inline-block; */
     display: flex;
-    /* width: fit-content; */
     margin: 0 165px;
 }
 
@@ -101,7 +100,6 @@
 }
 
 #input-submit{
-    /* height: 60px; */
     width: 183px;
     background-color: red;
     border: none;

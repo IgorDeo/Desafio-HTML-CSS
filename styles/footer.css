@@ -25,6 +25,7 @@ body {
 #footer-title {
     font-size: 1em;
     margin-bottom: 30px;
+    color: #757575;
 }
 
 .list-links{
@@ -62,6 +63,15 @@ body {
     color: #757575;
 }
 
+#last-footer {
+    margin: 0 auto;
+    width: 90%;
+}
+
 #last-item-footer p{
     color: #757575;
+}
+
+#footer-content{
+    margin: 0 auto;
 }
