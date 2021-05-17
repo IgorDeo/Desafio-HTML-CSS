@@ -1,29 +1,30 @@
-@font-face{
+@font-face {
     src: url(Fonts/NetflixSansRegular.ttf);
     font-family: netflix-font;
 }
+
+
 /* 
 img {
     max-width: 100%;
 } */
 
-body{
-    font-family: 'netflix-font', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+body {
+    font-family: 'netflix-font', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-body h1{
-    color: white;
-
-}
-
-body h2{
+body h1 {
     color: white;
 }
 
-body h3{
+body h2 {
     color: white;
 }
 
-body p{
+body h3 {
+    color: white;
+}
+
+body p {
     color: white;
 }
